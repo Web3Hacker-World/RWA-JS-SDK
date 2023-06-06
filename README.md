@@ -11,8 +11,9 @@
 
 <br>
 
+The RWA JavaScript SDK provides developers with a framework for implementing RWA functionality into their own applications.
 
-The starter is built on top of Vite 4.x and prepared for writing libraries in TypeScript. It generates a hybrid package - both support for CommonJS and ESM modules.
+It built on top of Vite 4.x and generates a hybrid package - both support for CommonJS and ESM modules.
 
 ## Features
 
