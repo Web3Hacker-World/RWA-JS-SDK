@@ -1,0 +1,8 @@
+{
+  "name": "@rwa/core",
+  "main": "src/index",
+  "devDependencies": {},
+  "peerDependencies": {
+    "@rwa/web3-storage": "workspace:^"
+  }
+}
