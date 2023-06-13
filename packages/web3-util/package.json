@@ -1,0 +1,6 @@
+{
+  "name": "@rwa/web3-util",
+  "main": "src/index",
+  "devDependencies": {},
+  "peerDependencies": {}
+}
