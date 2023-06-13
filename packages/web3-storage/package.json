@@ -1,0 +1,12 @@
+{
+  "name": "@rwa/web3-storage",
+  "main": "src/index",
+  "devDependencies": {
+    "@rwa/cache": "workspace:^",
+    "nft.storage": "^7.1.0"
+  },
+  "peerDependencies": {
+    "@rwa/cache": "workspace:^",
+    "nft.storage": "^7.1.0"
+  }
+}
