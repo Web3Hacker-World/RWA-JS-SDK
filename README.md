@@ -1,3 +1,5 @@
+<br>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-dark.svg">
@@ -11,9 +13,15 @@
 
 <br>
 
-The RWA JavaScript SDK provides developers with a framework for implementing RWA functionality into their own applications.
+The RWA JavaScript SDK provides developers with a framework for implementing RWA(real world assets) functionality into their own applications.
 
 It built on top of Vite 4.x and generates a hybrid package - both support for CommonJS and ESM modules.
+
+## Quick Start
+
+```bash
+pnpm add rwa
+```
 
 ## Features
 

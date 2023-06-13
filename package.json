@@ -1,5 +1,5 @@
 {
-  "name": "rwa",
+  "name": "@rwa/js",
   "private": true,
   "version": "0.0.2",
   "main": "./dist/rwa.cjs",
@@ -11,6 +11,7 @@
     }
   },
   "scripts": {
+    "preinstall": "npx -y only-allow pnpm",
     "dev": "vite --host",
     "build": "tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",
     "test": "vitest",
@@ -24,6 +25,7 @@
     "uninstall-husky": "npm uninstall husky --no-save && git config --unset core.hooksPath && npx rimraf .husky"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "@types/jsdom": "^20.0.1",
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
